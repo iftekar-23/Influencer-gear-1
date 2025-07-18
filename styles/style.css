@@ -1,0 +1,33 @@
+/* shared style */
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* nav bar */
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav-items {
+    gap: 20px;
+}
+
+.nav-items li {
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+}
+
+.nav-title {
+    font-weight: 700px;
+    font-size: 1.5rem;
+    color: rgb(58, 58, 58);
+}
+
